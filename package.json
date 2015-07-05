@@ -1,0 +1,29 @@
+{
+  "name": "xml2benchmark",
+  "version": "0.0.0",
+  "description": "My awe-inspiring module",
+  "license": "MIT",
+  "repository": "floatdrop/xml2benchmark",
+  "author": {
+    "name": "Vsevolod Strukchinsky",
+    "email": "floatdrop@gmail.com",
+    "url": "github.com/floatdrop"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "matcha index.js"
+  },
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    ""
+  ],
+  "dependencies": {
+    "matcha": "^0.6.0",
+    "xml2js": "^0.4.9",
+    "xml2json": "^0.7.1"
+  }
+}

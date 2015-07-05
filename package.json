@@ -23,6 +23,7 @@
   ],
   "dependencies": {
     "matcha": "^0.6.0",
+    "node-xml-lite": "0.0.3",
     "xml2js": "^0.4.9",
     "xml2json": "^0.7.1"
   }

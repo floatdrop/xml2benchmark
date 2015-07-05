@@ -1,21 +1,19 @@
 # xml2benchmark
 
-Benchmarking [xml2js](https://github.com/Leonidas-from-XIV/node-xml2js) vs [xml2json](https://github.com/buglabs/node-xml2json)
+Benchmarking some xml parsers.
 
 ## Results
 
 ```
-empty.xml
-	58,315 op/s » xml2js
-	89,685 op/s » xml2json
+small
+	19,503 op/s » xml2js
+	42,977 op/s » xml2json
+	188,345 op/s » node-xml-lite
 
-large.xml
+large
 	14 op/s » xml2js
-	36 op/s » xml2json
-
-small.xml
-	22,388 op/s » xml2js
-	46,216 op/s » xml2json
+	34 op/s » xml2json
+	63 op/s » node-xml-lite
 ```
 
 ## License
